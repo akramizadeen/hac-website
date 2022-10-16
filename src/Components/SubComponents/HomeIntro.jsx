@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './css/Intro.css'
+import Principal from '../../Images/principal.jpeg'
 
 function HomeIntro() {
   return (
@@ -16,6 +17,10 @@ function HomeIntro() {
             </Link>
         </div>
         <div className="i-right">
+            <div className="i-bg i-bg1"></div>
+            <div className="i-bg i-bg2">
+                <img src={Principal} alt="" />
+            </div>
             {/* <img src={Vector1} alt="" />
             <img src={Vector2} alt="" />
             <img src={AkmIzdn} alt="" />

@@ -59,13 +59,20 @@ textarea{
     background: #edd0ff;
     filter: blur(72px);
     z-index: -9;
-    top: -18%;
-    left: 90%;
 }
 
 .c-blur1{
     top: 1rem;
     left: 8rem;
+}
+
+.c-blur2{
+    top: -18%;
+    left: 90%;
+}
+
+.con-left {
+    position: relative;
 }
 
 @media screen and (max-width: 480px) {

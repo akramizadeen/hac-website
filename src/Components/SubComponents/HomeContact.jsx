@@ -37,8 +37,8 @@ const HomeContact = () => {
           {/* darkMode */}
           <span>Get in Touch</span>
           <span>Contact Us</span>
-          <div className="blur " style={{ background: "var(--yellow)", width: "22px", height: "27px", top: "-20rem" }}></div>
         </div>
+        <div className="blur c-blur2" style={{ background: "var(--yellow)" }}></div>
       </div>
       {/* right side form */}
       <div className="con-right">
