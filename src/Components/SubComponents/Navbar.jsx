@@ -6,7 +6,9 @@ function Navbar() {
   return (
     <div className="n-wrapper">
         <div className="n-left">
-            <div to='/' className="n-name">Hakeemiyyah</div>
+            <Link to='/'>
+                <div to='/' className="n-name">Hakeemiyyah</div>
+            </Link>
         </div>
         <div className="n-right">
             <div className="n-list">

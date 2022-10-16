@@ -1,8 +1,11 @@
 import React from 'react'
+import HomeAbout from '../SubComponents/HomeAbout'
 
 function About() {
   return (
-    <div>About</div>
+    <>
+      <HomeAbout />
+    </>
   )
 }
 

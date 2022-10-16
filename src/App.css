@@ -20,6 +20,10 @@
     color: var(--black);    
 }
 
+a {
+  text-decoration: none;
+}
+
 .button {
   border-radius: 34px;
   border: 1px solid #0da648;

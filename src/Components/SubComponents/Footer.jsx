@@ -3,7 +3,7 @@ import "./css/Footer.css";
 import Wave from '../../Images/wave.png'
 import Insta from "@iconscout/react-unicons/icons/uil-instagram";
 import Facebook from "@iconscout/react-unicons/icons/uil-facebook";
-import Gitub from "@iconscout/react-unicons/icons/uil-github";
+import YouTube from "@iconscout/react-unicons/icons/uil-youtube";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -50,7 +50,7 @@ const Footer = () => {
                     <Facebook color="white" size={"3rem"} />
                 </Link>
                 <Link to="#">
-                    <Gitub color="white" size={"3rem"} />
+                    <YouTube color="white" size={"3rem"} />
                 </Link>
             </div>
         </div>
