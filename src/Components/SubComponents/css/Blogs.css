@@ -1,0 +1,40 @@
+.blogs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.b-heading > * {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.b-heading > span:nth-of-type(2) {
+    color: var(--green);
+}
+
+.blogCards {
+    margin-top: 1rem;
+}
+
+.blur {
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: #edd0ff;
+    filter: blur(72px);
+    z-index: -9;
+    top: -18%;
+    left: 90%;
+}
+
+.blurYellow {
+    background: var(--yellow);
+}
+
+.blurBlue {
+    background: var(--blue);
+}

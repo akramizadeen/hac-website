@@ -1,0 +1,58 @@
+.courses {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 50vh;
+    margin-top: 1rem;
+}
+
+.c-heading {
+    align-self: start;
+}
+
+.c-heading > * {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.c-heading > span:nth-of-type(1) {
+    color: var(--green);
+}
+
+.courses > span:nth-of-type(2) {
+    color: var(--black);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.cards {
+    position: relative;
+}
+
+.courseCard {
+    position: relative;
+    float: left;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.blur {
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: #edd0ff;
+    filter: blur(72px);
+    z-index: -9;
+    top: -18%;
+    left: 90%;
+}
+
+.blurYellow {
+    background: var(--yellow);
+}
+
+.blurBlue {
+    background: var(--blue);
+}
